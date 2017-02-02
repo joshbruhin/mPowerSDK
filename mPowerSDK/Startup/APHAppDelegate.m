@@ -125,6 +125,10 @@ static NSString *const kAppStoreLink                    = @"https://appsto.re/us
              };
 }
 
+- (BOOL)promptUserToContinueActivities {
+    return YES;
+}
+
 #pragma mark
 
 - (BOOL)application:(UIApplication*) __unused application willFinishLaunchingWithOptions:(NSDictionary*) __unused launchOptions
